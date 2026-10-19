@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c0a09" />
+    <title>Osteria Sereno — Modern Italian Dining in Notting Hill, London</title>
+    <meta name="description" content="Osteria Sereno is a contemporary Italian restaurant in Notting Hill, London, serving seasonal handmade pasta, wood-fired mains and a curated Italian wine list. Book your table." />
+    <meta name="keywords" content="Italian restaurant London, Notting Hill restaurant, handmade pasta, fine dining London, Osteria Sereno" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Osteria Sereno — Modern Italian Dining in Notting Hill" />
+    <meta property="og:description" content="Seasonal handmade pasta, wood-fired mains and a curated Italian wine list in the heart of Notting Hill, London." />
+    <meta property="og:image" content="https://images.pexels.com/photos/21821564/pexels-photo-21821564.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+    <meta property="og:locale" content="en_GB" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Osteria Sereno — Modern Italian Dining" />
+    <meta name="twitter:description" content="Seasonal handmade pasta and wood-fired mains in Notting Hill, London." />
+    <meta name="twitter:image" content="https://images.pexels.com/photos/21821564/pexels-photo-21821564.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+
+    <!-- Structured data: Restaurant -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Osteria Sereno",
+      "servesCuisine": "Italian",
+      "priceRange": "£££",
+      "image": "https://images.pexels.com/photos/21821564/pexels-photo-21821564.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Kensington Park Road",
+        "addressLocality": "Notting Hill, London",
+        "postalCode": "W11 2ES",
+        "addressCountry": "GB"
+      },
+      "telephone": "+44 20 7946 0958",
+      "url": "https://osteriasereno.example",
+      "servesCuisineType": "Italian",
+      "acceptsReservations": "True",
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday"], "opens": "17:30", "closes": "22:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "12:00", "closes": "23:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "12:00", "closes": "21:30" }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
